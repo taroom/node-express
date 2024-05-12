@@ -1,0 +1,22 @@
+{
+  "name": "express-node",
+  "version": "1.0.0",
+  "description": "Belajar Node JS dengan Express",
+  "main": "src/hello.js",
+  "scripts": {
+    "start": "nodemon src/hello.js",
+    "test": "jest",
+    "tester": "node test/request.test.js"
+  },
+  "type": "module",
+  "author": "agussutarom@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^7.0.0"
+  }
+}
